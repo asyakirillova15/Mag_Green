@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Контакты</title>
+    <link rel="stylesheet" href="Style.css"/>
+</head>
+
+<body>
+<div class="container">
+    <div class="header  head-contacts">
+        <div class="head-logo"><img src="img/unnamed.png" alt="logo"></div>
+        <div class="head-menu">
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Catalog/catalog_tov.html">Каталог</a></li>
+                <li><a href="contacts.html" class="current-link">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr/>
+    <div class="content">
+
+        <form action="#">
+            <fieldset>
+                <legend>Оставьте отзыв или предложение</legend>
+                <table class="form-table">
+                    <tr>
+                        <td><label for="your_name">Ваше имя </label></td>
+                        <td><input type="text" placeholder="Ваше имя" id="your_name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="your-password">Пароль</label></td>
+                        <td><input type="password" placeholder="Пароль" id="your-password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="your-email">E-mail</label></td>
+                        <td><input type="email" placeholder="123@mail.ru" id="your-email"></td>
+                    </tr>
+                    <tr>
+                        <td><span>Ваш пол</span></td>
+                        <td><label for="pol-m">муж</label><input type="radio" name="pol" id="pol-m"> <label for="pol-w">жен</label><input
+                                type="radio" name="pol" id="pol-w"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="raiting-select"><span>Оцените нас</span></label></td>
+                        <td><select name="raiting" id="raiting-select">
+                            <option value="" selected disabled>Выберите оценку</option>
+                            <option value="3">Отлично</option>
+                            <option value="2">Хорошо</option>
+                            <option value="1">Слабовато</option>
+                            <option value="0">Больше не приду</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="your-comment">Комментарий</label></td>
+                        <td><textarea name="comment" cols="40" rows="3" placeholder="Введите текст"
+                                      id="your-comment"></textarea></td>
+                </table>
+            </fieldset>
+            <input type="submit">
+            <input type="reset" value="Очистить"></form>
+        <br/>
+
+        <h2>Контакты</h2>
+        <div class="contacts">
+            <p>г. Санкт-Петербург, ул. Ленина, д.45 <br/>
+                телефон <a href="tel:+78129955450">8 (812) 995-54-50</a><br/>
+                ждем вас ежедневно с 10 до 19ч
+            </p>
+        </div>
+    </div>
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af15dfa3a03c2a5871d4b8b29fb7ca6d3b1cc0f75ec498484ae8dc9ac8b559839&amp;sПurce=constructor"
+            width="500" height="350" frameborder="0"></iframe>
+
+
+    <div class="footer">
+        <hr/>
+        <span> &copy; Все права защищены</span></div>
+</div>
+</body>
+
+</html>  
